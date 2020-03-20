@@ -1,3 +1,5 @@
+package classes
+
 fun main(args: Array<String>) {
     class Person(var firstName: String, var secondName: String) {
         var fullName: String?

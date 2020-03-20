@@ -1,3 +1,5 @@
+package classes
+
 class Person(
     var firstName: String
 ){
@@ -9,5 +11,5 @@ class Person(
 
 fun main(args: Array<String>) {
     val person = Person("Yela")
-    val personWithLastName = Person("Sam","Gambee")
+    val personWithLastName = Person("Sam", "Gambee")
 }

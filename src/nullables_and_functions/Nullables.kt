@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
+package nullables_and_functions
+
+private fun main(args: Array<String>) {
     var result: Int? = 30
     println(result)
 
