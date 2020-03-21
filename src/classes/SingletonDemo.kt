@@ -42,7 +42,7 @@ fun main(args: Array<String>) {
     StudentRegistry.addStud(StudentC("Yelamanwman","Mrzkgasdamasdsadas"))
 
     StudentRegistry.studentsList.forEach{student->
-        println("${student.firstName} ${student.lastName}")
+        println("${student.firstName} $student.")
     }
 
 }
